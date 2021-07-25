@@ -16,4 +16,4 @@ The name of this website is Street-food website.
 This project was worked on by *Nancy Muriithi*
 
 ## License
-This project has the MIT License.
+This project has the MIT license and Copyright (c) 2021 Nancy-codergirl.
