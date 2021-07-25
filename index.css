@@ -28,28 +28,105 @@ body{
   border-radius: 50%;
 }
 
-  .eat-together-section{
-    margin-left: 80px;
-    margin-right: 35px;
-    padding-right: 70px;
-    padding-left: 0px;
-    display: flex;
-}
-.eat-together-section>img{
-  width: 100%;
-}
-
-
-.eat-together-text{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content:center;
-}
-.eat-together-text>h1{
-  text-align: center;
-  margin-left: 12rem;
-}
-
-
+.oval-images>.center-image{
+    position: absolute;
+    bottom:0;
+    z-index: 3;
+    top: 15rem;
+    right: 18rem;
+  }
+  .semi-circle-dotted{
+      width: 300px;
+      height: 150px; /* half of width*/
+      border-radius:150px 150px 0px 0px;
+      position: absolute;
+      z-index: 3;
+      right: 13.5rem;
+      border-style: dotted;
+      top: 8.5rem;
+      right: 12rem;
+      border-bottom: 0px; 
+  }
+  #one{
+    position: absolute;
+    bottom:0;
+    z-index: 3;
+    top: 15rem;
+    right: 28rem;
+  }
+  #two{
+    position: absolute;
+    bottom:0;
+    z-index: 3;
+    top: 8rem;
+    right: 26rem;
+  
+  }
+  #three{
+    position: absolute;
+    bottom:0;
+    z-index: 3;
+    top: 6rem;
+    right: 19rem;
+  }
+  #four{
+    position: absolute;
+    bottom:0;
+    z-index: 3;
+    top: 9rem;
+    right: 13rem;
+  }
+  #five{
+    position: absolute;
+    bottom:0;
+    z-index: 3;
+    top: 15rem;
+    right: 9rem;
+  }
+  .navbar {
+      overflow: hidden;
+      padding-top: 0px;
+      padding-left: 40px;
+      padding-right: 40px;
+      position: absolute;
+      z-index: 10;
+    }
+    
+    .navbar a {
+      padding: 50px 45px;
+      color: black;
+      font-size: 13px;
+      text-decoration: none;
+    }
+  
+  
+    
+    .navbar-text{
+      margin-top: 150px;
+      display: inline-block;
+      padding-right: 40px;
+      padding-left: 80px;
+      text-align: left;
+      margin-right: 825px;
+  
+  }
+  #navbar-button {
+    
+    background-color: #6CB840;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    border-radius: 16px;
+    width:30%;
+    cursor: pointer;
+    margin-bottom: 12px;
+      
+  
+  
+  }
+  
