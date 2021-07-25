@@ -1,34 +1,33 @@
+/*Basic styling */
 *{
     padding: 0%;
     margin: 0%;
     font-family: Poppins;
   
 }
+body{
+  position: relative;
+}
+
+/*styling  the landing page*/
 .landingpage{
     background-color:#e5e5e5;
     min-height: 70vh;
+    position: relative;
 
 }
-.navbar {
-    overflow: hidden;
-    padding-top: 70px;
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-  
-  .navbar a {
-    padding: 50px 45px;
-    color: black;
-    font-size: 17px;
-    text-decoration: none;
-  }
-  .container-Eat {
-    border: 1px solid black;
-    margin-left: 80px;
-    margin-right: 35px;
-    padding-right: 70px;
-    padding-left: 0px;
-  }
+
+.oval-container{
+  background-color: #B8E79C !important;
+  position: absolute;
+  width: 92vw;
+  height: 76vw;
+  top: -46em;
+  right: -19em;
+  z-index: 3;
+  border-radius: 50%;
+}
+
   .eat-together-section{
     margin-left: 80px;
     margin-right: 35px;
