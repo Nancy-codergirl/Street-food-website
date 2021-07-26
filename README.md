@@ -20,7 +20,7 @@ The name of this website is *Street-food website*.
 ### Author name/Developer name
 This project was worked on by *Nancy Muriithi*
 
-*Github-Nancy-codergil
+*Github-Nancy-codergirl
 
 ## License
 This project has the MIT license and Copyright (c) 2021 Nancy-codergirl.
