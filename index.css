@@ -1,106 +1,112 @@
 *{
-    margin: 0%;
-    padding: 0%;
-    position: relative;
+  padding: 0%;
+  margin: 0%;
+
+}
+.landingpage{
+  background-color:#e5e5e5;
+  min-height: 70vh;
+
+}
+.navbar {
+  overflow: hidden;
+  padding-top: 70px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
-.initialpage{
-    background-color: e5e5e5;
-    min-height: 65vh;
+.navbar a {
+  padding: 50px 45px;
+  color: black;
+  font-size: 17px;
+  text-decoration: none;
 }
 
-font-size: 17px;
-    text-decoration: none;
-  }
-  .container-Eat {
-    border: 1px solid black;
-    margin-left: 80px;
-    margin-right: 35px;
-    padding-right: 70px;
-    padding-left: 0px;
-  }
-  .eat-together-section{
-    margin-left: 80px;
-    margin-right: 35px;
-    padding-right: 70px;
-    padding-left: 0px;
-    display: flex;}
-    .eat-together-section>img{
-      width: 100%;
-    }
-    
-      .textbox1{
-          margin-top: 150px;
-    
+.textbox1{
+    margin-top: 150px;
+    display: inline-block;
+    padding-right: 40px;
+    padding-left: 80px;
+    text-align: left;
+    margin-right: 825px;
 
-
-.container-explore{
-    border: 1px solid black;
-    margin-left: 80px;
-    margin-right: 35px;
-    padding-right: 70px;
-    text-align: center;
 }
-/*
- .box {
-    padding: 50px;
-    margin: 45px;
-    height: 100px;
-    width: 200px;
-    border-radius: 0 0 40px 0;
-    background-color: white;
-    */
+.textbox2{
+  display: flex;
+  border:black solid 1px;
+  margin-left: 80px;
+  margin-right: 35px;
+  display: flex;
+  padding-right: 70px;
+  padding-left: 0px;
+  
+}
+.textbox3{
+    border:black 1px solid;
+    margin-top: 250px;
+    text-align:center;
+}
 
-    .box {
-        padding: 14px;
-        margin: 45px;
-        text-align:center;
-        margin-left: 2rem;
-      }
-      .container-deals{
-        border: 1px solid black;
-        margin-left: 80px;
-        margin-right: 35px;
-        padding-right: 70px;
-      text-align: center
+.explorebox {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  margin-left: 80px;
+  margin-right: 35px;
+  padding-right: 70px;
+  padding-left: 0px;
+  background-color: #e5e5e5;
+  
+  
 
-    .hotdeal box{
-        display:flex;
-        align-items: center;
-          }
+  
+}
 
-       .hotdealbox>#burger{
-        position: relative;
-        bottom: 0rem;
-        left: -16rem;
-        height: 15rem;
-       }
+.box {
+  padding: 50px;
+  margin: 45px;
+  height: 100px;
+  width: 200px;
+  border-radius: 0 0 40px 0;
+  background-color: white;
+}
+#burger{
+  float:bottom;
+}
+.hotdealbox {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  margin-left: 80px;
+  margin-right: 35px;
+  padding-right: 70px;
+  padding-left: 0px;
+  background-color: #c9ecb5;
+}
+p {
+  text-align: center;
+}
+.contactbox{
+  text-align: center;
+  border: 1px solid black;
+  margin-left: 80px;
+  margin-right: 35px;
+  padding-right: 70px;
+  padding-left: 0px;
+  background-color: #fff5dd;
+}
 
-       .contactbox{
-        border: 1px solid black;
-        margin-left: 80px;
-        margin-right: 35px;
-        padding-right: 70px;
-    
-    }
-    .container-footer{
-        border: 1px solid black;
-        margin-top: 5%;
-        margin-left: 80px;
-        margin-right: 35px;
-        background-color: #f1faec;
-      
-      }
-      .footer{
-        width: 100%;
-        display: flex;
+  © 2021 GitHub, Inc.
+  Terms
+  Privacy
+  Security
+  Status
+  Docs
 
-        .navbar-text{
-            margin-top: 150px;
-            display: inline-block;
-            padding-right: 40px;
-            padding-left: 80px;
-            text-align: left;
-            margin-right: 825px;
-        
-        }
+  Contact GitHub
+  Pricing
+  API
+  Training
+  Blog
+  About
+
