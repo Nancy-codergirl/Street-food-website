@@ -129,9 +129,7 @@ margin-bottom: 12px;
 
 
 }
-
-
-/*styling  the Eat Together*/
+}
 .container-Eat {
   margin-left: 80px;
   margin-right: 35px;
@@ -151,19 +149,19 @@ width: 70%;
 
 
 .eat-together-text{
-display: flex;
-flex-direction: column;
-flex-wrap: nowrap;
-align-items: center;
-justify-content:center;
-text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content:center;
+  text-align: center;
 }
 
 .eat-together-text>h1{
-text-align: center;
-margin-left: 12rem;
+  text-align: center;
+  margin-left: 12rem;
 }
-
+  
 /*styling  the Explore Menu*/
 
 
