@@ -1,0 +1,359 @@
+body{
+  margin: 0;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}   
+
+header {
+  position: relative;
+  background-color: rgba(190, 186, 186, 0.61);
+  padding-bottom: 100px;
+}
+
+.eclipse {
+  position: absolute;
+  background:radial-gradient(100% 100% at 70% -20%,  #649549 50%, transparent 50%);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1300px;
+}
+
+.scborder {
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  border: 3px dotted black;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(-45deg);
+  left: 54%;
+  bottom: 15%;
+}
+
+.head {
+  padding: 50px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.head a:hover {
+  text-decoration: darkgoldenrod;
+  color: yellowgreen;
+}
+
+.head a {
+  color: black;
+  text-decoration: none;
+}
+
+#star {
+  display: flex;
+  justify-content: center;
+  font-size: 600%;
+  padding: 0;
+  margin: 0;
+}
+
+#star:hover {
+  color: yellowgreen;
+}
+
+#sf:hover {
+  color: yellowgreen;
+}
+
+.logo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  bottom: 80px;
+}
+
+h1 {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+#sF {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.hText {
+  position: absolute;
+  text-align: left;
+  padding: 80px;
+  padding-top: 0;
+  top: 30%;
+
+}
+
+#imgcntr {
+  position: relative;
+  left: 62%;
+  top: 30px;
+}
+
+#i1 {
+  position: relative;
+  left: 36%;
+  bottom: 55px;
+}
+
+#i2 {
+  position: relative;
+  bottom: 190px;
+  left: 32%;
+}
+
+#i3 {
+  position: relative;
+  left: 36%;
+  bottom: 270px;
+}
+
+#i4 {
+  position: relative;
+  left: 40%;
+  bottom: 180px;
+}
+
+#i5 {
+  position: relative;
+  left: 36%;
+  bottom: 55px;
+}
+
+#play {
+  margin-bottom: 0;
+}
+
+#boy {
+  padding-top: 5px;
+  margin-top: 0;
+  padding-right: 70%;
+}
+.eatTogetherContainer {
+  display: flex;
+  text-align: center;
+  padding: 15%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.eatTogetherContainer img {
+  width: 60%;
+}
+
+.pText:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subT {
+  color: #EAAB1B;
+}
+.exploreMenuContainer {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #EAF3E4;
+  text-align: center;
+  padding: 20px;
+}
+
+.pBox {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  border-bottom-right-radius: 40px;
+  margin: 20px;
+  
+}
+
+.pBox img {
+  position: absolute;
+  top: 40%;
+  right: 65%;
+  width: 60%;
+}
+
+.pBox h3 {
+  margin-top: 0;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+h3 {
+  text-align: left;
+  font-size: large;
+  padding: 10px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.burgerText {
+  display: flex;
+  flex-direction: row;
+}
+
+.pBox p {
+  font-size: medium;
+  text-align: center;
+  padding: 15%;
+  padding-top: 0;
+  padding-left: 30%;
+  margin-top: 0;
+  
+}
+.lime {
+  color: #6CB840;
+}
+
+.hotDealsContainer {
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+  background-color: #C9ECB5;
+  text-align: center;
+}
+
+.both {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0;
+}
+
+.lemonBurger {
+  position: relative;
+  bottom: 160px;
+  display: flex;
+  flex-direction: row;
+}
+
+#lemonade {
+  height: 90%;
+}
+
+#likemeat {
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  
+}
+#hot {
+  margin-top: 0;
+  padding: 20px;
+}
+
+#sCombo {
+  text-align: left;
+}
+
+#bnp , #fnd {
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: left;
+}
+.lemonBurgerText {
+  padding-top: 20px;
+}
+
+.lemonBurgerText:last-child {
+  padding-left: 270px;
+  padding-right: 270px;
+}
+
+.contactContainer {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  background-color: #FFF5DD;
+  padding-bottom: 200px;
+}
+
+#cC {
+  padding: 20px;
+  margin-top: 0;
+}
+
+.contactContainer p {
+
+  padding-left: 36%;
+  padding-right: 36%;
+}
+
+#mail {
+  border: none;
+  border-color: white;
+  border-radius: 20px;
+  width: 30%;
+  height: 30px;
+}
+
+#send {
+  border: none ;
+  background-color: #6CB840;
+  border-radius: 20px;
+  margin: 20px;
+  color: white;
+  height: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+} 
+
+footer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #C9ECB5;
+  justify-content: space-around;
+}
+
+.dayntime {
+  border-right: dotted #A6C495;
+  height: 20%;
+  padding-left: 2%;
+  padding-right: 5%;
+
+}
+
+.location { 
+  text-align: center;
+  padding-left: 30px;
+}
+
+.fText {
+  padding-left: 10px;
+}
+
+.inb {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+#fbtn {
+  margin-right: 0;
+  display: flex;
+  border: none;
+  color: white;
+  background-color: #6CB840;
+  justify-content: flex-end;
+  align-self: flex-end;
+  
+}
