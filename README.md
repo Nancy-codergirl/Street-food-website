@@ -15,10 +15,11 @@ This link will guide you to the site : https://nancy-codergirl.github.io/Street-
 
 
 ## Project name
-The name of this website is Street-food website.
+The name of this website is *Street-food website*.
 
 ### Author name/Developer name
 This project was worked on by *Nancy Muriithi*
+
 *Github-Nancy-codergil
 
 ## License
